@@ -1,0 +1,70 @@
+﻿node : file:///C:/User
+s/Usuario/Downloads/av
+ances%20de%20mi%20trab
+ajo%20jose%20march....
+.%203.0-20260305T18281
+6Z-3-001/avances%20de%
+20mi%20trabajo%20jose%
+20march.....%203.0/ind
+ex.js:27
+En línea: 1 Carácter: 
+1
++ node index.js 2>&1 
+| Out-File -Encoding 
+utf8 error_utf8.log
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (file:///C:   
+ /User...3.0/index    
+.js:27:String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+import { 
+fileURLToPath } from 
+'url';
+         ^^^^^^^^^^^^^
+
+SyntaxError: 
+Identifier 
+'fileURLToPath' has 
+already been declared
+    at compileSourceTe
+xtModule (node:interna
+l/modules/esm/utils:35
+7:16)
+    at ModuleLoader.mo
+duleStrategy (node:int
+ernal/modules/esm/tran
+slators:109:18)
+    at #translate (nod
+e:internal/modules/esm
+/loader:564:20)
+    at afterLoad (node
+:internal/modules/esm/
+loader:614:29)
+    at ModuleLoader.lo
+adAndTranslate (node:i
+nternal/modules/esm/lo
+ader:619:12)
+    at 
+#createModuleJob (node
+:internal/modules/esm/
+loader:643:36)
+    at #getJobFromReso
+lveResult (node:intern
+al/modules/esm/loader:
+353:34)
+    at ModuleLoader.ge
+tModuleJobForImport (n
+ode:internal/modules/e
+sm/loader:318:41)
+    at async onImport.
+tracePromise.__proto__
+ (node:internal/module
+s/esm/loader:685:25)
+
+Node.js v25.0.0
